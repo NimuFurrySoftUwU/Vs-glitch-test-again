@@ -162,7 +162,7 @@ class TitleState extends MusicBeatState
 		if (FlxG.save.data.psychDevsEasterEgg == null) FlxG.save.data.psychDevsEasterEgg = ''; //Crash prevention
 		switch(FlxG.save.data.psychDevsEasterEgg.toUpperCase())
 		{
-			case 'SHADOW':
+			case 'glitch':
 				titleJSON.gfx += 210;
 				titleJSON.gfy += 40;
 			case 'RIVER':
@@ -614,7 +614,7 @@ class TitleState extends MusicBeatState
 					ngSpr.visible = false;
 				// credTextShit.visible = false;
 
-				// credTextShit.text = 'Shoutouts Tom Fulp';
+				// credTextShit.text ='Qt Is Guy?!';
 				// credTextShit.screenCenter();
 				case 9:
 					createCoolText([curWacky[0]]);
@@ -625,16 +625,16 @@ class TitleState extends MusicBeatState
 				case 12:
 					deleteCoolText();
 				// credTextShit.visible = false;
-				// credTextShit.text = "Friday";
+				// credTextShit.text = "Vs";
 				// credTextShit.screenCenter();
 				case 13:
-					addMoreText('Friday');
+					addMoreText('Glitch');
 				// credTextShit.visible = true;
 				case 14:
-					addMoreText('Night');
+					addMoreText('=)');
 				// credTextShit.text += '\nNight';
 				case 15:
-					addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
+					addMoreText('Pibby'); // credTextShit.text += '\nPibby';
 
 				case 16:
 					skipIntro();
